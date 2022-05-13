@@ -1,0 +1,33 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spectral_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Y +100",
+                                    "italic": false
+                                }
+                            ]
+                        },{
+                            "function": "set_nbt",
+                            "tag": "{\"PortalKill\":1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

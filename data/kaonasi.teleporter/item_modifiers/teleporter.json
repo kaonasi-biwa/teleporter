@@ -1,0 +1,42 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "name": [
+        {
+          "text": "X:",
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "kaonasi.teleporter.x"
+          },
+          "italic": false
+        },
+        {
+          "text": " Y:",
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "kaonasi.teleporter.y"
+          },
+          "italic": false
+        },
+        {
+          "text": " Z:",
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "kaonasi.teleporter.z"
+          },
+          "italic": false
+        }
+      ],
+      "entity": "this"
+    }
+  ]
+  
