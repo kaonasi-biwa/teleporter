@@ -5,6 +5,9 @@ execute as @e[tag=kaonasi.teleporter.teleporter] at @s if block ~ ~ ~ player_hea
 execute as @e[tag=kaonasi.teleporter.teleporter] at @s if block ~ ~ ~ player_wall_head run kill @s
 execute as @a[predicate=kaonasi.teleporter:sneak] at @s if entity @e[tag=kaonasi.teleporter.teleporter,distance=..0.3] run function kaonasi.teleporter:tp
 
+execute as @a[scores={kaonasi_teleporter.name.change=1..}] at @s if entity @s[nbt={SelectedItem:{tag:{EntityTag:{Tags:["kaonasi.teleporter.temp"]}}},Inventory:[{Slot:-106b}]}] run item modify entity @s weapon.mainhand kaonasi.teleporter:name_change
+scoreboard players set @a kaonasi_teleporter.name.change 0
+scoreboard players enable @a kaonasi_teleporter.name.change
 
 kill @e[type=item,nbt={Item:{tag:{"PortalKill":1}}}]
 clear @a spectral_arrow{"PortalKill":1}

@@ -5,3 +5,4 @@ execute as @e[tag=kaonasi.teleporter.core] run say  emeraldfyr3さんのem-lib�
 scoreboard objectives add kaonasi.teleporter.x dummy
 scoreboard objectives add kaonasi.teleporter.y dummy
 scoreboard objectives add kaonasi.teleporter.z dummy
+scoreboard objectives add kaonasi_teleporter.name.change trigger

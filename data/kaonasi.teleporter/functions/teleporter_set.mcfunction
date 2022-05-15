@@ -4,4 +4,5 @@ execute store result score @e[tag=kaonasi.teleporter.teleporter,distance=..0.3,l
 execute store result score @e[tag=kaonasi.teleporter.teleporter,distance=..0.3,limit=1] scoretp_y run data get entity @s Item.tag."kaonasi.teleporter.y"
 execute store result score @e[tag=kaonasi.teleporter.teleporter,distance=..0.3,limit=1] scoretp_z run data get entity @s Item.tag."kaonasi.teleporter.z"
 
+data modify entity @e[tag=kaonasi.teleporter.teleporter,distance=..0.3,limit=1] CustomName set from entity @s Item.tag."kaonasi.teleporter.name".Name
 kill @s
