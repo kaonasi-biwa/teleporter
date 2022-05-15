@@ -1,0 +1,29 @@
+[{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+      "player": {
+          "stats": []
+      },
+      "equipment": {
+          "offhand": {
+              "count": {
+                  "min":1
+              }
+          },
+          "mainhand": {
+              "nbt": "{EntityTag:{Tags:[\"kaonasi.teleporter.temp\"]}}"
+          }
+      }
+    }
+  },
+  {
+      "condition": "minecraft:entity_scores",
+      "scores": {
+        "kaonasi_teleporter.name.change":{
+            "min":1
+        }
+      },
+      "entity": "this"
+  }
+]
