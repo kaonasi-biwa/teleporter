@@ -11,4 +11,4 @@ scoreboard players set @a kaonasi_teleporter.name.change 0
 scoreboard players enable @a kaonasi_teleporter.name.change
 
 kill @e[type=item,nbt={Item:{tag:{"PortalKill":1}}}]
-clear @a #kaonasi.teleporter:kill_item{"PortalKill":1}
+

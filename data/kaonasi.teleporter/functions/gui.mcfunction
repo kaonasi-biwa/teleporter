@@ -1,3 +1,5 @@
+clear @a #kaonasi.teleporter:kill_item{"PortalKill":1}
+
 execute unless block ~ ~ ~ barrel{Items:[{Slot:0b,tag:{"PortalKill":1}}]} run scoreboard players add @s kaonasi.teleporter.x 100
 execute unless block ~ ~ ~ barrel{Items:[{Slot:1b,tag:{"PortalKill":1}}]} run scoreboard players add @s kaonasi.teleporter.x 10
 execute unless block ~ ~ ~ barrel{Items:[{Slot:2b,tag:{"PortalKill":1}}]} run scoreboard players add @s kaonasi.teleporter.x 1

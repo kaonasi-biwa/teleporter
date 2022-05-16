@@ -1,7 +1,7 @@
 {
 "criteria": {
     "run":{
-        "trigger": "minecraft:tick",
+        "trigger": "tick",
         "conditions": {
             "player": {
                 "flags": {
@@ -12,6 +12,6 @@
     }
 },
 "rewards": {
-    "function": "kaonasi.teleporter:tp"
+    "function": "kaonasi.teleporter:tp_run"
 }
 }
