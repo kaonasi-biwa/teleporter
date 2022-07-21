@@ -7,6 +7,9 @@ execute as @e[tag=kaonasi.teleporter.teleporter] at @s if block ~ ~ ~ #kaonasi.t
 
 execute as @a[predicate=kaonasi.teleporter:name_change] at @s run item modify entity @s weapon.mainhand kaonasi.teleporter:name_change
 
+execute as @a[scores={kaonasi_teleporter.set=1..,kaonasi.teleporter.enable.set=1}] at @s run function kaonasi.teleporter:set_teleport_maker
+scoreboard players set @a kaonasi_teleporter.set 0
+scoreboard players enable @a kaonasi_teleporter.set
 scoreboard players set @a kaonasi_teleporter.name.change 0
 scoreboard players enable @a kaonasi_teleporter.name.change
 

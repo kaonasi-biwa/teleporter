@@ -13,6 +13,9 @@
 ## 名前の変更
 オフハンドに名前をつけた任意のアイテム、メインハンドに名前を変えたいテレポーターを持った状態で`/trigger kaonasi_teleporter.name.change`を実行すると、テレポーターの表示名を変更できます。  
 これは、OP権限を持っていなくても使えます。
+## テレポーター設置の権限
+OPを持っていない人も置けるようにするには、`/scoreboard players set <プレイヤー名> kaonasi.teleporter.enable.set 1`を実行してください。  
+指定したプレイヤーは`/trigger kaonasi_teleporter.set`で設置できるようになります
 ## em-libについて
 「指定した座標にてレポートする」を実装するためにem-libのscoretoを使わせていただきました。  
 ありがとうございました！
